@@ -1,6 +1,15 @@
+<div align="center">
+
 # ⚛️ React Introduction
 
-This project provides an introduction to React and its fundamental concepts. It explains what React is, why it is widely used for modern web development, its key features, component-based architecture, the Virtual DOM, and how React differs from traditional web development.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ES6+](https://img.shields.io/badge/ES6+-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+
+**An introduction to React and its fundamental concepts — covering what React is, why it's used, its key features, component-based architecture, the Virtual DOM, and how it differs from traditional web development.**
+
+</div>
 
 ---
 
@@ -66,6 +75,10 @@ After completing this topic, the following concepts were understood:
 
 ---
 
+<div align="center">
+
 ## 👩‍💻 Author
 
 **Asma Shahzadi**
+
+</div>
