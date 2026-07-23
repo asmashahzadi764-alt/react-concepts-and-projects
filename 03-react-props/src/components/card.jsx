@@ -5,6 +5,7 @@ function Card(props) {
       <p>{props.description}</p>
       <p>This is a test line.</p>
       <h3>Price: {props.price}</h3>
+      <h4>Status: {props.isAvailable ? "Available" : "Not Available"}</h4>
     </div>
   );
 }
