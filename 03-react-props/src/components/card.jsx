@@ -3,6 +3,8 @@ function Card(props) {
     <div className="card">
       <h2>{props.title}</h2>
       <p>{props.description}</p>
+      <p>This is a test line.</p>
+      <h3>Price: {props.price}</h3>
     </div>
   );
 }
