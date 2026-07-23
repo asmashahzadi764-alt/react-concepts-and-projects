@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import ObjectCard from "./components/ObjectCard";
 import ArrayCard from "./components/ArrayCard";
+import FunctionCard from "./components/FunctionCard";
 
 function App() {
   const htmlCourse = {
@@ -23,6 +24,11 @@ function App() {
     price: 40,
     isAvailable: true,
   };
+
+  function showMessage(courseName)
+  {
+    alert(`Welcome to ${courseName}!`);
+  }
 
   return (
     <>
@@ -67,6 +73,18 @@ function App() {
         <ArrayCard
         title="Backend Skills"
         skills={["Node.js", "Express.js", "MongoDB"]}
+        />
+
+        <h1>Function Props</h1>
+
+        <FunctionCard
+          title="HTML"
+          showMessage={() => showMessage("HTML")}
+        />
+
+        <FunctionCard
+          title="React"
+          showMessage={() => showMessage("React")}
         />
     </>
   );
