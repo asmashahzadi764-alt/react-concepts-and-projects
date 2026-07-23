@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import ObjectCard from "./components/ObjectCard";
+import ArrayCard from "./components/ArrayCard";
 
 function App() {
   const htmlCourse = {
@@ -55,6 +56,18 @@ function App() {
       <ObjectCard course={htmlCourse} />
       <ObjectCard course={cssCourse} />
       <ObjectCard course={jsCourse} />
+
+      <h1>Array Props</h1>
+
+        <ArrayCard
+        title="Frontend Skills"
+        skills={["HTML", "CSS", "JavaScript", "React"]}
+        />
+
+        <ArrayCard
+        title="Backend Skills"
+        skills={["Node.js", "Express.js", "MongoDB"]}
+        />
     </>
   );
 }
