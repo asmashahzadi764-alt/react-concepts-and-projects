@@ -1,10 +1,10 @@
-function ArrayCard(props) {
+function ArrayCard({ title, skills }) {
   return (
     <div className="card">
-      <h2>{props.title}</h2>
+      <h2>{title}</h2>
       <h3>Skills:</h3>
       <ul>
-        {props.skills.map((skill, index) => (
+        {skills.map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}
       </ul>

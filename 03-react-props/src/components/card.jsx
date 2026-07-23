@@ -1,10 +1,10 @@
-function Card(props) {
+function Card({ title, description, price, isAvailable }) {
   return (
     <div className="card">
-      <h2>{props.title}</h2>
-      <p>{props.description}</p>
-      <h3>Price: {props.price}</h3>
-      <h4>Status: {props.isAvailable ? "Available" : "Not Available"}</h4>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <h3>Price: {price}</h3>
+      <h4>Status: {isAvailable ? "Available" : "Not Available"}</h4>
     </div>
   );
 }

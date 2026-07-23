@@ -1,8 +1,8 @@
-function FunctionCard(props) {
+function FunctionCard({ title, showMessage }) {
   return (
     <div className="card">
-      <h2>{props.title}</h2>
-      <button onClick={props.showMessage}>
+      <h2>{title}</h2>
+      <button onClick={showMessage}>
         Click Me
       </button>
     </div>

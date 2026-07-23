@@ -1,17 +1,11 @@
-function ObjectCard(props) {
+function ObjectCard({ course }) {
   return (
     <div className="card">
-      <h2>{props.course.title}</h2>
-
-      <p>{props.course.description}</p>
-
-      <h3>Price: ${props.course.price}</h3>
-
+      <h2>{course.title}</h2>
+      <p>{course.description}</p>
+      <h3>Price: {course.price}</h3>
       <h4>
-        Status:{" "}
-        {props.course.isAvailable
-          ? "Available"
-          : "Not Available"}
+        Status: {course.isAvailable ? "Available" : "Not Available"}
       </h4>
     </div>
   );
