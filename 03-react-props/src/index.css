@@ -1,14 +1,81 @@
-body {
+* {
   margin: 0;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #2563eb;
 }
 
 .card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
   padding: 20px;
-  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 12px;
+  border-left: 6px solid #2563eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.card h3,
+.card h4 {
+  margin-top: 12px;
+}
+
+.card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.card li {
+  margin: 6px 0;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.25s ease;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+hr {
+  max-width: 700px;
+  margin: 40px auto;
+  border: none;
+  border-top: 2px solid #ddd;
 }
